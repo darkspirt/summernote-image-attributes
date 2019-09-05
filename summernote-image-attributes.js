@@ -292,12 +292,12 @@
               $linkRel     = self.$dialog.find('.note-imageAttributes-link-rel'),
               $linkRole    = self.$dialog.find('.note-imageAttributes-link-role'),
               $editBtn     = self.$dialog.find('.note-imageAttributes-btn');
-          $linkHref.val();
-          $linkClass.val();
-          $linkStyle.val();
-          $linkRole.val();
-          $linkTarget.val();
-          $linkRel.val();
+          $linkHref.val('');
+          $linkClass.val('');
+          $linkStyle.val('');
+          $linkRole.val('');
+          $linkTarget.val('');
+          $linkRel.val('');
           if (imgInfo.imgLink) {
             $linkHref.val(imgInfo.imgLink.attr('href'));
             $linkClass.val(imgInfo.imgLink.attr('class'));
